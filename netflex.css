@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('./image/netflex-background-image.jpg');
+    width: 100% !important;
+    height: 700px;
+    background-size: cover;
+}
+
+.netflix-logo {
+    width: 15rem;
+}
+
+.form {
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+
+}
+
+.form-control {
+border: 1px solid wheat !important;
+padding: 0 !important;
+}
+ 
+.form input {
+    width: 100%;
+    height: 100%;
+    border: solid rgb(118, 118, 118);
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.form input:active{
+    /* border:1px solid rgb(239, 19, 19) !important; */
+}
+
+.content-name {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    transition: all 0.3s ease;
+}
+
+.form input:focus+.label-name .content-name,
+.form input:valid+.label-name .content-name {
+    transform: translateY(-100%);
+    font-size: 14px;
+    left: 20px;
+    /* border: 3px solid white !important; */
+}
+
+.padding-section {
+    padding: 100px 0 100px 0 !important;
+}
+
+
+/* .input-boreder:hover { */
+
+
+.border-line {
+    height: 8px;
+    background-color: #414040;
+    /* margin: 50px 0 50px 0; */
+}
+
+.background-common {
+    background-color: black;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: auto;
+    z-index: 1;
+}
+
+.vedio-all-device {
+    position: absolute;
+    bottom: 20% !important;
+    top: 35% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    width: 60% !important;
+    height: auto;
+    z-index: 1;
+}
+
+.video-container .tv-position {
+    position: relative;
+    z-index: 2;
+}
+
+.video-container .tv-position img {
+    width: 100%;
+}
+
+
+.accordion-button::after {
+    display: none;
+    /* Hide default Bootstrap icon */
+}
+
+.background-opacity {
+    background-color: black !important;
+    opacity: 70% !important;
+    color: #fff !important;
+    /* border: 1px solid #ffffff !important; */
+}
+
+
+.btn-dangar {
+    background-color: red !important;
+    height: 32px;
+    /* width: 76px; */
+    color: #fff !important;
+}
+
+.mail {
+    margin: 1rem;
+}
+
+.phone-container {
+    width: 50%;
+    height: 20%;
+    background-color: black;
+    border: 2px solid #767676;
+    color: #ffffff;
+    bottom: 5% !important;
+    left: 20%!important;
+}
+
+/*font */
+.header-title {
+font-weight: 900;
+    color: #ffffff;
+    font-size: 48px;
+    line-height: normal;
+    /* font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: normal; */
+}
+
+.para {
+font-weight: 400;
+color: #ffffff;
+font-size: 24px;
+line-height: normal;
+text-align: left;
+/* font-weight: 400;
+color: #ffffff;
+font-size: 18px;
+line-height: normal; */
+}
+
+.subtitle {
+font-weight: 400;
+color: #ffffff;
+font-size: 20px;
+line-height: 30px;
+
+    /* font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 27px;*/
+} 
+
+/* .translator-container {
+    /* padding-left: 190px !important; */
+    /* padding-right: 10px; */
+    /* border: 1px soild #ffffff !important;
+} */ 
+
+/* .dropdown-item:hover {
+  background-color: blue !important;
+} */
+
+.getready {
+font-weight: 500 !important;
+font-size:24px !important;
+line-height:24px !important;
+}
+
+.accordion-button {
+    background-color: #282828 !important;
+}
+
+.footer-font {
+    font-weight: 400 !important;
+    color: #ffffffb3 !important;
+    font-size: 14px !important;
+    line-height: normal;
+}
+
+.accordion-button:hover {
+    background-color: #767676 !important;
+    border:none !important;
+}
+
+.accordion-body {
+    background-color: #282828;
+}
+
+.stranger-font {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Tab */
+
+@media only screen and (max-width:768px) {
+    .header-title {
+            font-weight: 700;
+            color: #ffffff;
+            font-size: 32px;
+            line-height: normal;
+        }
+        .para {
+            /* text-align: left; */
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 18px;
+            line-height: normal;
+            }
+            .subtitle {
+                    font-weight: 400;
+                    color: #ffffff;
+                    font-size: 18px;
+                    line-height: 27px;
+                } 
+                
+}
