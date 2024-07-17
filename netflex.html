@@ -20,14 +20,16 @@
 </head>
 
 <body>
-    <div class="container-fluid background m-0 p-0 col-12">
-        <div class="col-10 navbar  mx-auto d-flex justify-content-between ps-4 ">
-
-            <img src="/image/netflex-logo-1.png" alt="Netflix logo image" class="netflix-logo col-2 p-3 py-2 monthly">
-            <div class="col-6 d-flex justify-content-end translator-container">
-                <div class="btn-group" role="group" class=" text-white ">
+    <div class="container-fluid background m-0 p-0">
+        <div class="col-11 col-lg-10 d-flex justify-content-between navbar mx-auto ps-lg-4 pt-5 pt-md-2">
+            <div class="col-5 col-md-2">
+                <img src="/image/netflex-logo-1.png" alt="Netflix logo image"
+                    class="netflix-logo p-lg-3 p-2  py-2 monthly">
+            </div>
+            <div class="col-6 d-flex justify-content-end m-0 ">
+                <div class="btn-group text-white" role="group">
                     <button type="button"
-                        class="ms-lg-5 btn bg-black btn-outline-light boeder-5 background-opacity  dropdown-toggle"
+                        class=" btn bg-black btn-outline-light border-2 text-white border-light-subtle  border dropdown-toggle"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16" viewBox="0 0 16 16"
                             role="img" data-icon="LanguagesSmall" aria-hidden="true">
@@ -42,43 +44,20 @@
                                 हिंदी</a></li>
                     </ul>
                 </div>
-                <button class="btn btn-dangar px-4 ms-3 p-1 me-3" href="#">Sign in</button>
+                <div class=" sign-in">
+                    <button class="btn btn-dangar h-100
+                            size ms-2 d-flex align-items-center fw-bold m-0 px-2 fs-6" type="button">Sign in</button>
+                </div>
             </div>
         </div>
-        
-
-        <!-- <div class="row p-5">
-            <div class="col-6 w-50">
-                <img src="/image/netflix-logo-2.png" alt="Netflix logo image" class="img-fluid w-25">
-            </div>
-            <div class="col-6  d-flex justify-content-end">
-                <div class="btn-group" role="group" class=" text-white ">
-                    <button type="button"
-                        class="ms-lg-5 btn bg-black btn-outline-light boeder-5 background-opacity  dropdown-toggle"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16" viewBox="0 0 16 16"
-                            role="img" data-icon="LanguagesSmall" aria-hidden="true">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M10.7668 5.33333L10.5038 5.99715L9.33974 8.9355L8.76866 10.377L7.33333 14H9.10751L9.83505 12.0326H13.4217L14.162 14H16L12.5665 5.33333H10.8278H10.7668ZM10.6186 9.93479L10.3839 10.5632H11.1036H12.8856L11.6348 7.2136L10.6186 9.93479ZM9.52722 4.84224C9.55393 4.77481 9.58574 4.71045 9.62211 4.64954H6.41909V2H4.926V4.64954H0.540802V5.99715H4.31466C3.35062 7.79015 1.75173 9.51463 0 10.4283C0.329184 10.7138 0.811203 11.2391 1.04633 11.5931C2.55118 10.6795 3.90318 9.22912 4.926 7.57316V12.6667H6.41909V7.51606C6.81951 8.15256 7.26748 8.76169 7.7521 9.32292L8.31996 7.88955C7.80191 7.29052 7.34631 6.64699 6.9834 5.99715H9.06968L9.52722 4.84224Z"
-                                fill="currentColor"></path>
-                        </svg> English
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#"> English</a></li>
-                        <li><a class="dropdown-item" href="#">
-                                हिंदी</a></li>
-                    </ul>
-                </div>
-                <button class="btn btn-dangar px-4 ms-3 p-1 me-3" href="#">Sign in</button>
-
-            </div>
-        </div> -->
-        <div class="col-12 mx-auto text-center container mt-5 py-5">
-            <h1 class="text-white mt-5 pt-5 header-title">Unlimited movies, TV shows and more</h1>
-            <h2 class="text-white para text-center">Watch anywhere. Cancel anytime.</h2>
-            <p class="text-white subtitle">Ready to watch? Enter your email to create or restart your membership.</p>
-            <div class="mail row col-12 col-lg-6 mx-auto">
-                <div class="form form-control text-white col-2 w-50 ms-auto background-opacity">
+        <div class="col-11 mx-auto text-center container mt-lg-5 py-lg-5">
+            <h1 class="text-white mt-lg-5 pt-5 header-title">Unlimited movie, TV shows and more</h1>
+            <h2 class="text-white para text-center mb-3 w-75 mx-auto">Watch anywhere. Cancel anytime.</h2>
+            <p class="text-white subtitle w-75 mx-auto">Ready to watch? Enter your email to create or restart your
+                membership.</p>
+            <div class="col-lg-6 d-block d-lg-flex mail mx-auto">
+                <div
+                    class="form form-control text-white col-12 col-lg-2 w-75  w-lg-50 mx-auto me-lg-3 background-opacity">
                     <input type="email" name="text" autocomplete="off" required class="background-opacity" />
                     <label for="email" class="label-name">
                         <span class="content-name">
@@ -86,8 +65,8 @@
                         </span>
                     </label>
                 </div>
-                <div class="col-4">
-                    <button class="btn btn-dangar w-100 h-100 getready">Get Start <i
+                <div class="col-6 col-lg-4 mx-auto mt-3 mt-lg-0">
+                    <button class="btn btn-dangar w-100 h-100 py-3 getready">Get Started <i
                             class="bi bi-chevron-right"></i></button>
                 </div>
             </div>
@@ -95,10 +74,11 @@
     </div>
     <div class="border-line"></div>
     <!--enjoy your tv-->
-    <div class="container-fluid background-common text-white text-center row align-items-center m-0 padding-section ">
-        <div class="col-10 col-lg-5 mx-auto text-center text-lg-start">
+    <div class="row align-items-center container-fluid background-common text-white text-center m-0 padding-section ">
+        <div class="col-12 col-lg-5 mx-auto text-center text-lg-start">
             <h1 class="header-title ">Enjoy on your TV</h1>
-            <p class="para text-center text-lg-start">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and
+            <p class="para text-center text-lg-start">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+                Blu-ray players and
                 more.</p>
         </div>
         <div class="col-12 col-lg-5 me-auto">
@@ -115,12 +95,12 @@
     <div class="border-line"></div>
     <!--download your shows-->
     <div class="row background-common padding-section  m-0  d-flex align-items-center">
-        <div class="col-lg-6 col-12 order-lg-1 order-2 position-relative">
+        <div class="col-12 col-lg-6 order-lg-1 order-2 position-relative">
             <div class="position-relative">
                 <img src="/image/netfloex-phone-img.jpg" alt="phone image" class="img-fluid">
             </div>
-            <div class="boeder-2 rounded-2 d-flex justify-content-between phone-container position-absolute">
-                <img src="/image//boxshot-phone-image.png" alt="poster of the movie">
+            <div class="border-3 rounded-2 d-flex justify-content-between phone-container position-absolute">
+                <img src="/image//boxshot-phone-image.png" alt="poster of the movie" class="pe-1">
                 <div>
                     <p class="fs-lg-6 mb-0 mb-lg-2 stranger-font">Stranger Things</p>
                     <p class="fs-lg-6 stranger-font text-primary">Downloading...</p>
@@ -130,15 +110,17 @@
         </div>
         <div class="col-12 col-lg-5 mx-auto text-white order-lg-2 order-1 text-center text-lg-start">
             <h1 class="header-title">Download your shows to watch offline</h1>
-            <p class="para text-center text-lg-start">Save your favourites easily and always have something to watch.</p>
+            <p class="para text-center text-lg-start">Save your favourites easily and always have something to watch.
+            </p>
         </div>
     </div>
     <div class="border-line"></div>
     <!--Watch everywhere-->
     <div class="container-fluid background-common text-center text-white row padding-section m-0 align-items-center">
-        <div class="col-12 col-lg-5 ms-auto text-center text-lg-start text-start">
+        <div class="col-10 col-lg-5 ms-lg-auto mx-auto text-center text-lg-start text-start">
             <h1 class="header-title">Watch everywhere</h1>
-            <p class="para text-center text-lg-start">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            <p class="para text-center text-lg-start">Stream unlimited movies and TV shows on your phone, tablet,
+                laptop, and TV.</p>
         </div>
         <div class="col-12 col-lg-5 me-auto">
             <div class="video-container">
@@ -156,7 +138,8 @@
     <div class="row padding-section  m-0 background-common text-white text-center d-flex align-items-center">
         <div class="col-10 col-lg-5 mx-auto order-1 order-lg-2 text-center text-lg-start">
             <h1 class="header-title text-center text-lg-start ">Create profiles for kids</h1>
-            <h2 class="para text-center text-lg-start">Send children on adventures with their favourite characters in a space made just for
+            <h2 class="para text-center text-lg-start">Send children on adventures with their favourite characters in a
+                space made just for
                 them—free with your
                 membership.</h2>
         </div>
@@ -169,8 +152,8 @@
     <div
         class="container-fluid text-white text-center background-common d-flex flex-column padding-section align-items-center">
         <h1 class="header-title">Frequently Asked Questions</h1>
-        <div class="accordion accordion-flush w-75-lg col-12 col-lg-8 mx-auto mx-3" id="accordionFlushExample">
-            <div class="accordion-item bg-black border-0">
+        <div class="col-12 col-lg-8 accordion accordion-flush w-75-lg px-4 px-lg-0 mx-auto" id="accordionFlushExample">
+            <div class="accordion-item bg-black border-0 ">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed d-flex justify-content-between my-2 py-4 text-white"
                         type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" accesskey="false"
@@ -178,7 +161,7 @@
                         <h1 class="para p-0">What is Netflix?</h1>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="36" height="36" viewBox="0 0 36 36"
                             role="img" data-icon="PlusLarge" aria-hidden="true"
-                            class="elj7tfr3 default-ltr-cache-1dpnjn e164gv2o4">
+                            class="elj7tfr3 default-ltr-cache-1dpnjn add e164gv2o4">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
                                 fill="currentColor"></path>
                         </svg>
@@ -186,7 +169,8 @@
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse btn-secondary para"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body text-white border-0">Netflix is a streaming service that offers a wide variety of
+                    <div class="accordion-body text-white border-0">Netflix is a streaming service that offers a wide
+                        variety of
                         award-winning TV shows, movies, anime, documentaries and more - on thousands of
                         internet-connected devices.<br><br>
                         You can watch as much as you want, whenever you want, without a single ad - all for one low
@@ -203,14 +187,15 @@
                         <h1 class="para">How much does Netflix cost?</h1>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="36" height="36" viewBox="0 0 36 36"
                             role="img" data-icon="PlusLarge" aria-hidden="true"
-                            class="elj7tfr3 default-ltr-cache-1dpnjn e164gv2o4">
+                            class="elj7tfr3 default-ltr-cache-1dpnjn add e164gv2o4">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
                                 fill="currentColor"></path>
                         </svg>
                     </button>
                 </h2>
                 <div id="flush-collapsetwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body text-white  btn-secondary para border-0">Watch Netflix on your smartphone, tablet,
+                    <div class="accordion-body text-white  btn-secondary para border-0">Watch Netflix on your
+                        smartphone, tablet,
                         Smart TV, laptop,
                         or streaming
                         device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no
@@ -226,7 +211,7 @@
                         <h1 class="para">Where can I watch?</h1>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="36" height="36" viewBox="0 0 36 36"
                             role="img" data-icon="PlusLarge" aria-hidden="true"
-                            class="elj7tfr3 default-ltr-cache-1dpnjn e164gv2o4">
+                            class="elj7tfr3 default-ltr-cache-1dpnjn add e164gv2o4">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
                                 fill="currentColor"></path>
                         </svg>
@@ -234,7 +219,8 @@
                 </h2>
                 <div id="flush-collapsethree" class="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body text-white btn-secondary para border-0">Watch anywhere, anytime. Sign in with your
+                    <div class="accordion-body text-white btn-secondary para border-0">Watch anywhere, anytime. Sign in
+                        with your
                         Netflix account to
                         watch
                         instantly on the web at netflix.com from your personal computer or on any internet-connected
@@ -253,7 +239,7 @@
                         <h1 class="para">How do I cancel?</h1>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="36" height="36" viewBox="0 0 36 36"
                             role="img" data-icon="PlusLarge" aria-hidden="true"
-                            class="elj7tfr3 default-ltr-cache-1dpnjn e164gv2o4">
+                            class="elj7tfr3 default-ltr-cache-1dpnjn add e164gv2o4">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
                                 fill="currentColor"></path>
                         </svg>
@@ -261,10 +247,9 @@
                 </h2>
                 <div id="flush-collapsefour" class="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body text-white btn-secondary para border-0">Netflix is flexible. There are no annoying
-                        contracts and no
-                        commitments.
-                        You can easily cancel your account online in two clicks. There are no cancellation fees - start
+                    <div class="accordion-body text-white btn-secondary para border-0">Netflix is flexible. There are no
+                        annoying contracts and no commitments. You can easily cancel your account online in two clicks.
+                        There are no cancellation fees - start
                         or stop your account anytime.
                     </div>
                 </div>
@@ -277,7 +262,7 @@
                         <h1 class="para">What can I watch on Netflix?</h1>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="36" height="36" viewBox="0 0 36 36"
                             role="img" data-icon="PlusLarge" aria-hidden="true"
-                            class="elj7tfr3 default-ltr-cache-1dpnjn e164gv2o4">
+                            class="elj7tfr3 default-ltr-cache-1dpnjn add e164gv2o4">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
                                 fill="currentColor"></path>
                         </svg>
@@ -285,11 +270,10 @@
                 </h2>
                 <div id="flush-collapsefive" class="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body text-white btn-secondary para border-0">Netflix has an extensive library of
-                        feature films,
-                        documentaries, TV
-                        shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you
-                        want.
+                    <div class="accordion-body text-white btn-secondary para border-0">Netflix has an extensive library
+                        of feature films,
+                        documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you
+                        want, anytime you want.
                     </div>
                 </div>
             </div>
@@ -301,14 +285,15 @@
                         <h1 class="para">Is Netflix good for kids?</h1>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="36" height="36" viewBox="0 0 36 36"
                             role="img" data-icon="PlusLarge" aria-hidden="true"
-                            class="elj7tfr3 default-ltr-cache-1dpnjn e164gv2o4">
+                            class="elj7tfr3 default-ltr-cache-1dpnjn add e164gv2o4">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
                                 fill="currentColor"></path>
                         </svg>
                     </button>
                 </h2>
                 <div id="flush-collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body text-white btn-secondary para border-0">The Netflix Kids experience is included in
+                    <div class="accordion-body text-white btn-secondary para border-0">The Netflix Kids experience is
+                        included in
                         your membership to
                         give
                         parents control while kids enjoy family-friendly TV shows and films in their own space.<br>
@@ -319,9 +304,9 @@
             </div>
         </div>
 
-        <p class="subtitle pe-2">Ready to watch? Enter your email to create or restart your membership.</p>
-        <div class="mail row col-6 mx-auto">
-            <div class="form form-control text-white col-2 w-50 ms-auto background-opacity">
+        <p class="subtitle pe-2 col-10 py-5">Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="col-lg-6 d-block col-12 d-lg-flex mail mx-auto">
+            <div class="form form-control text-white col-12 col-lg-2 w-75  w-lg-50 mx-auto me-lg-3 background-opacity">
                 <input type="email" name="text" autocomplete="off" required class="background-opacity" />
                 <label for="email" class="label-name">
                     <span class="content-name">
@@ -329,8 +314,8 @@
                     </span>
                 </label>
             </div>
-            <div class="col-4">
-                <button class="btn btn-dangar w-100 h-100 getready">Get Start <i
+            <div class="col-6 col-lg-4 mx-auto mt-3 mt-lg-0">
+                <button class="btn btn-dangar w-100 h-100 py-3 getready">Get Started <i
                         class="bi bi-chevron-right"></i></button>
             </div>
         </div>
@@ -338,17 +323,18 @@
     <div class="border-line"></div>
     <!--Footer-->
     <div class="background-common padding-section">
-        <div class="col-9 mx-auto row">
-          <p class="text-white opacity-70">Questions? Call<a href="tel:004412345123123" class="footer-font"> 000-800-919-1694</a></p>
-            <div class="col-3">
+        <div class="col-md-9 col-11 mx-auto row">
+            <p class="text-white opacity-70">Questions? Call<a href="tel:004412345123123" class="footer-font">
+                    000-800-919-1694</a></p>
+            <div class="col-6 col-md-3">
                 <ul class="list-unstyled">
                     <li class="my-2"><a href="#" class="footer-font">FAQ</a></li>
                     <li class="my-2"><a href="#" class="footer-font">Account</a></li>
                     <li class="my-2"><a href="#" class="footer-font">Investor Relations</a></li>
                     <li class="my-2"><a href="#" class="footer-font">Ways to Watch</a></li>
-                </ul> 
+                </ul>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-md-3">
                 <ul class="list-unstyled">
                     <li class="my-2"><a href="#" class="footer-font">Privacy</a></li>
                     <li class="my-2"><a href="#" class="footer-font">Corporate Information</a></li>
@@ -356,7 +342,7 @@
                     <li class="my-2"><a href="#" class="footer-font">Only on Netflix</a></li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-md-3">
                 <ul class="list-unstyled">
                     <li class="my-2"><a href="#" class="footer-font">Help Centre</a></li>
                     <li class="my-2"><a href="#" class="footer-font">Media Centre</a></li>
@@ -364,31 +350,31 @@
                     <li class="my-2"><a href="#" class="footer-font">Terms of Use</a></li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-md-3">
                 <ul class="list-unstyled">
                     <li class="my-2"><a href="#" class="footer-font">Cookie Preferences</a></li>
                     <li class="my-2"><a href="#" class="footer-font">Contact Us</a></li>
                     <li class="my-2"><a href="#" class="footer-font">Legal Notices</a></li>
                 </ul>
             </div>
-            <div class="m-0 p-0 d-flex justify-content-start translator-container">
-            <div class="btn-group " role="group" class=" text-white">
-                <button type="button"
-                    class="my-3 btn bg-black btn-outline-light border-2 opacity-50  dropdown-toggle"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16" viewBox="0 0 16 16"
-                        role="img" data-icon="LanguagesSmall" aria-hidden="true">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M10.7668 5.33333L10.5038 5.99715L9.33974 8.9355L8.76866 10.377L7.33333 14H9.10751L9.83505 12.0326H13.4217L14.162 14H16L12.5665 5.33333H10.8278H10.7668ZM10.6186 9.93479L10.3839 10.5632H11.1036H12.8856L11.6348 7.2136L10.6186 9.93479ZM9.52722 4.84224C9.55393 4.77481 9.58574 4.71045 9.62211 4.64954H6.41909V2H4.926V4.64954H0.540802V5.99715H4.31466C3.35062 7.79015 1.75173 9.51463 0 10.4283C0.329184 10.7138 0.811203 11.2391 1.04633 11.5931C2.55118 10.6795 3.90318 9.22912 4.926 7.57316V12.6667H6.41909V7.51606C6.81951 8.15256 7.26748 8.76169 7.7521 9.32292L8.31996 7.88955C7.80191 7.29052 7.34631 6.64699 6.9834 5.99715H9.06968L9.52722 4.84224Z"
-                            fill="currentColor"></path>
-                    </svg> English
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"> English</a></li>
-                    <li><a class="dropdown-item" href="#">
-                            हिंदी</a></li>
-                </ul>
-            </div>
+            <div class="m-0 ps-2 d-flex justify-content-start translator-container">
+                <div class="btn-group text-white" role="group">
+                    <button type="button"
+                        class="my-3 btn bg-black btn-outline-light border-2 text-white border-light-subtle  border dropdown-toggle"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16" viewBox="0 0 16 16"
+                            role="img" data-icon="LanguagesSmall" aria-hidden="true">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10.7668 5.33333L10.5038 5.99715L9.33974 8.9355L8.76866 10.377L7.33333 14H9.10751L9.83505 12.0326H13.4217L14.162 14H16L12.5665 5.33333H10.8278H10.7668ZM10.6186 9.93479L10.3839 10.5632H11.1036H12.8856L11.6348 7.2136L10.6186 9.93479ZM9.52722 4.84224C9.55393 4.77481 9.58574 4.71045 9.62211 4.64954H6.41909V2H4.926V4.64954H0.540802V5.99715H4.31466C3.35062 7.79015 1.75173 9.51463 0 10.4283C0.329184 10.7138 0.811203 11.2391 1.04633 11.5931C2.55118 10.6795 3.90318 9.22912 4.926 7.57316V12.6667H6.41909V7.51606C6.81951 8.15256 7.26748 8.76169 7.7521 9.32292L8.31996 7.88955C7.80191 7.29052 7.34631 6.64699 6.9834 5.99715H9.06968L9.52722 4.84224Z"
+                                fill="currentColor"></path>
+                        </svg> English
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"> English</a></li>
+                        <li><a class="dropdown-item" href="#">
+                                हिंदी</a></li>
+                    </ul>
+                </div>
             </div>
             <p class="footer-font">Netflix India</p>
         </div>
@@ -398,6 +384,4 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-
-
 </html>
